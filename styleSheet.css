@@ -85,6 +85,6 @@
     flex-direction: column;
 }
 
-img.hoverShadow:hover{
-    box-shadow: 100px 100px 10px black;
+.hoverShadow:hover{
+    box-shadow: 10px 10px 1px black;
 }
