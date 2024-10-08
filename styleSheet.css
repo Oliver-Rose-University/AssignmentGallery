@@ -1,0 +1,46 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Sixtyfour+Convergence&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Edu AU VIC WA NT Guides";
+}
+
+.grid-container {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-areas: 
+    "item1 item2 item3 item4"
+    "item5 item6 item7 item8"
+    "item9 item10 item11 item12";
+
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .card{
+    width:15vw;
+    height:auto;
+    border: solid black 0.5vw;
+    border-radius: 1vw;
+  }
+
+  .gallery{
+    object-position: 50% 50%;
+    height: 200px;
+    object-fit: cover;
+    border: solid black 0.5vw;
+    border-radius: 1vw;
+    background-color: cornflowerblue;
+    justify-content: center;
+  }
+
+  .flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
