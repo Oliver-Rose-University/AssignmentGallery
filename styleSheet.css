@@ -8,7 +8,10 @@
     font-family: "Edu AU VIC WA NT Guides";
 }
 
-
+#credit{
+    background-color: cornflowerblue;
+    text-align: center;
+}
 #titleDiv {
     background-color: cornflowerblue;
     height: 400px;
