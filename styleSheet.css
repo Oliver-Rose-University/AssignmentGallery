@@ -45,7 +45,6 @@
 
 .grid-container {
     display: grid;
-    /* height: 400px; */
     align-content: center;
     grid-template-areas: 
     "item1 item2 item3 item4"
@@ -95,5 +94,6 @@
 
 .hoverShadow:hover{
     box-shadow: 10px 10px 1px black;
+    width:16vw;
+    height: auto;
 }
-
