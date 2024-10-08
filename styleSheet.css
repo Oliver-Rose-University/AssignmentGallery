@@ -40,7 +40,7 @@
     margin: 0.5vw;
     padding-left: 1vw;
     padding-right: 1vw;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
 }
 
 .grid-container {
@@ -90,6 +90,7 @@
 .verticalContainer{
     display:flex;
     flex-direction: column;
+    width: 15vw;
 }
 
 .hoverShadow:hover{
