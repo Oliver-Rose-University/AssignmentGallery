@@ -14,6 +14,15 @@
     height: 400px;
 }
 
+#titleImage{
+    background-color: cornflowerblue;
+}
+
+.ffLogo{
+    height: 20vh;
+    width: auto;
+}
+
 #heading1 {
     font-size: calc(2rem + 2vw + 2vh);
     border-style: solid;
@@ -74,4 +83,8 @@
 .verticalContainer{
     display:flex;
     flex-direction: column;
+}
+
+img.hoverShadow:hover{
+    box-shadow: 100px 100px 10px black;
 }
