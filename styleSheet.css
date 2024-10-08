@@ -8,6 +8,24 @@
     font-family: "Edu AU VIC WA NT Guides";
 }
 
+
+#titleDiv {
+    background-color: cornflowerblue;
+    height: 400px;
+}
+
+#heading1 {
+    font-size: calc(2rem + 2vw + 2vh);
+    border-style: solid;
+    border-color: black;
+    border-width: 2vw;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 0.5vw;
+}
+
 .grid-container {
     display: grid;
     height: 400px;
@@ -43,4 +61,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.full-width{
+    width: 100vw;
 }
