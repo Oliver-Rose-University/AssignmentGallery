@@ -28,7 +28,7 @@
 
 .grid-container {
     display: grid;
-    height: 400px;
+    /* height: 400px; */
     align-content: center;
     grid-template-areas: 
     "item1 item2 item3 item4"
@@ -39,6 +39,10 @@
     background-color: #2196F3;
     padding: 10px;
   }
+
+.itemText{
+    font-size: calc(1rem + 1vw + 1vh);
+}
 
   .card{
     width:15vw;
@@ -65,4 +69,9 @@
 
 .full-width{
     width: 100vw;
+}
+
+.verticalContainer{
+    display:flex;
+    flex-direction: column;
 }
