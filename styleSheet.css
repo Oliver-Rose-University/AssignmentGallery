@@ -50,7 +50,6 @@
     "item1 item2 item3 item4"
     "item5 item6 item7 item8"
     "item9 item10 item11 item12";
-
     gap: 10px;
     background-color: #2196F3;
     padding: 10px;
@@ -98,6 +97,12 @@
     width:16vw;
     height: auto;
 }
+
+/* .hoverShadow2:hover{
+    box-shadow: 10px 10px 1px black;
+    width:300px;
+    height: 150px;
+} */
 
 nav ul {
     text-align: center;
