@@ -7,7 +7,7 @@
     margin: 0;
     font-family: "Edu AU VIC WA NT Guides";
 }
-
+/* These style classes are used for colours and sizing */
 #credit{
     background-color: cornflowerblue;
     text-align: center;
@@ -26,10 +26,12 @@
     background-color: black;
 }
 
+/* This ID ensures the primary logo scales with the size of the screen */
 .ffLogo{
     height: 20vh;
     width: auto;
 }
+
 
 #heading1 {
     font-size: calc(2rem + 2vw + 2vh);
@@ -43,6 +45,7 @@
     border-radius: 1vw;
 }
 
+/* Manages the grid, setting up its patterning, style and colour */
 .grid-container {
     display: grid;
     align-content: center;
@@ -55,10 +58,11 @@
     padding: 10px;
   }
 
+  /* Dynamically changes the font size based on the size of the screen */
 .itemText{
     font-size: calc(1rem + 1vw + 1vh);
 }
-
+/* Classes for the features that go within the grid, to make up the gallery */
   .card{
     width:15vw;
     height:auto;
@@ -75,7 +79,7 @@
     background-color: cornflowerblue;
     justify-content: center;
   }
-
+/* Standard Style classes that see repeated use */
   .flex-center{
     display: flex;
     justify-content: center;
@@ -91,19 +95,13 @@
     flex-direction: column;
     width: 15vw;
 }
-
+/* Grants a shadow effect to the books when hovered over */
 .hoverShadow:hover{
     box-shadow: 10px 10px 1px black;
     width:16vw;
     height: auto;
 }
-
-/* .hoverShadow2:hover{
-    box-shadow: 10px 10px 1px black;
-    width:300px;
-    height: 150px;
-} */
-
+/* class styling for the navigation menu */
 nav ul {
     text-align: center;
     list-style-type: none;
